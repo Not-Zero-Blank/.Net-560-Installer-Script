@@ -74,10 +74,7 @@ echo "Failed Installing dotnet Runtime!"
 exit
 fi
 echo "Checking if the Install was Successfull"
-if command=$(dotnet) ; then
-echo "Successfully Installed NET 6.0!"
-echo "Showing List of all Installed Versions below"
-echo ""
+
 echo command=$(dotnet --info)
 else
 echo "Failed Installing dotnet Runtime!"

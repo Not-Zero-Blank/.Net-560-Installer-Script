@@ -76,8 +76,8 @@ fi
 echo "Checking if the Install was Successfull"
 
 echo command=$(dotnet --info)
-else
-echo "Failed Installing dotnet Runtime!"
-exit
-fi
+
+
+
+
 exit
